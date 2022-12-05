@@ -186,6 +186,31 @@ export default function Map() {
       // draggable: true
     });
 
+    const bhaupalbazar = new maps.Polygon({
+      paths: [
+        { lng: 90.5621910, lat: 22.4084497 },
+        { lng: 90.5717182, lat: 22.4177729 },
+        { lng: 90.5579853, lat: 22.4447474 },
+        { lng: 90.5196190, lat: 22.4455407 },
+        { lng: 90.5196190, lat: 22.4455407 },
+        { lng: 90.5142117, lat: 22.4421295 },
+        { lng: 90.5085468, lat: 22.4238030 },
+        { lng: 90.5085468, lat: 22.4238030 },
+        { lng: 90.5092335, lat: 22.4099176 },
+        { lng: 90.5151558, lat: 22.4014271 },
+        { lng: 90.5268288, lat: 22.3934121 },
+        { lng: 90.5443382, lat: 22.3919837 },
+        { lng: 90.5621897, lat: 22.4084509 },
+      ],
+      strokeColor: "#995253",
+      strokeOpacity: 0.8,
+      strokeWeight: 2,
+      fillColor: "#5a97bf",
+      fillOpacity: 0.35,
+      map,
+      // draggable: true
+    });
+
     let marker = new maps.Marker({
       position: {
         lat: 23.7721493,
